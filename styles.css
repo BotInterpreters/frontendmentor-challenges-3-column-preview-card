@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap");
+
+html,
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item-container {
+  border-radius: 14px 14px 14px 14px;
+  -webkit-border-radius: 14px 14px 14px 14px;
+  -moz-border-radius: 14px 14px 14px 14px;
+  max-height: 100%;
+  padding: 2rem 2rem;
+}
+
+.first-item {
+  background-color: #e28525;
+  border-radius: 15px 0px 0px 15px;
+  padding: 3.5rem 3.5rem 3.5rem 3.5rem;
+}
+
+.first-item h5 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.first-item p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 5rem;
+}
+
+.first-item button {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 25px 25px 25px 25px;
+  padding: 0.5rem 0.5rem;
+  width: 150px;
+  color: #e28525;
+  font-size: 15px;
+}
+
+.first-item button:hover {
+  background-color: #e28525;
+  border-radius: 25px 25px 25px 25px;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.second-item {
+  background-color: #016972;
+  border-radius: 0px 0px 0px 0px;
+  padding: 3.5rem 3.5rem;
+}
+
+.second-item h5 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.second-item p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 5rem;
+}
+
+.second-item button {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 25px 25px 25px 25px;
+  padding: 0.5rem 0.5rem;
+  width: 150px;
+  color: #016972;
+  font-size: 15px;
+  outline: #fff;
+}
+
+.second-item button:hover {
+  background-color: #016972;
+  border-radius: 25px 25px 25px 25px;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.third-item {
+  background-color: #00403f;
+  border-radius: 0px 15px 15px 0px;
+  padding: 3.5rem 3.5rem;
+}
+
+.third-item h5 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.third-item p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 5rem;
+}
+
+.third-item button {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 25px 25px 25px 25px;
+  padding: 0.5rem 0.5rem;
+  width: 150px;
+  color: #00403f;
+  font-size: 15px;
+  outline: #fff;
+}
+
+.third-item button:hover {
+  background-color: #00403f;
+  border-radius: 25px 25px 25px 25px;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .first-item {
+    background-color: #e28525;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .third-item {
+    background-color: #00403f;
+    border-radius: 0px 0px 15px 15px;
+    padding: 3.5rem 3.5rem;
+  }
+  
+}
